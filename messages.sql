@@ -50,7 +50,6 @@ INSERT INTO `messages` (`id`, `pseudo`, `message`) VALUES
 (14, 'User 8', 'Καλημέρα ! είναι μια δοκιμή'),
 (15, 'User 9', 'Доброе утро ! это тест'),
 (16, 'User 10', 'おはよう！ それはテストです'),
-(17, 'User 10', 'おはよう！ それはテストです');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
