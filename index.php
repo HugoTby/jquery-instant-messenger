@@ -25,9 +25,10 @@ if (isset($_POST['valider'])) {
     <title>JQUERY test</title>
 </head>
 <style>
-    body{
-        background-color: #2f322f;
+    body {
+        background-color: rgb(37, 40, 41);
     }
+
     form {
         display: flex;
         flex-direction: column;
@@ -44,6 +45,7 @@ if (isset($_POST['valider'])) {
         margin-bottom: 10px;
         width: 300px;
         font-size: 18px;
+        background-color: #454a4d;
     }
 
     input[type="submit"] {
@@ -65,10 +67,12 @@ if (isset($_POST['valider'])) {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+        max-height: 800px;
     }
 
     .message {
-        background-color: #9e9e9e;
+        background-color: #202324;
+        color: #fff;
         border: 1px solid #ccc;
         border-radius: 5px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -95,7 +99,7 @@ if (isset($_POST['valider'])) {
     }
 
     .message:nth-child(even) {
-        background-color: #f2f2f2;
+        background-color: #454a4d;
     }
 
     .message img {
