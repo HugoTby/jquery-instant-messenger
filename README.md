@@ -2,4 +2,5 @@ Cette application web est un formulaire de messagerie. Elle utilise PHP et MySQL
 
 
 ![preview](https://github.com/HugoTby/jquery/blob/main/jquery_view.png)
+![preview](https://github.com/HugoTby/jquery/blob/main/jquery_code_view.png)
 
